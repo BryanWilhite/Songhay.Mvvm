@@ -11,6 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{110220
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Songhay.Mvvm", "Songhay.Mvvm\Songhay.Mvvm.csproj", "{45F71F1A-9C10-47B2-80F9-5F6C1B5E4390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Songhay.Mvvm-net451", "Songhay.Mvvm-net451\Songhay.Mvvm-net451.csproj", "{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{EBB8495E-6025-4866-AC84-101CB4A2CB9D}"
+	ProjectSection(SolutionItems) = preProject
+		Songhay.Mvvm.nuspec = Songhay.Mvvm.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{45F71F1A-9C10-47B2-80F9-5F6C1B5E4390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45F71F1A-9C10-47B2-80F9-5F6C1B5E4390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45F71F1A-9C10-47B2-80F9-5F6C1B5E4390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,3 @@
 ﻿Set-Location $PSScriptRoot
 
-nuget pack ..\Songhay.Mvvm.nuspec -Verbosity detailed
+nuget pack ..\..\Songhay.Mvvm.nuspec -Verbosity detailed
