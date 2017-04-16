@@ -1,0 +1,40 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="{x:Type Path}">
+        <Setter Property="Fill" Value="Black" />
+    </Style>
+    <Style x:Key="BaseVFlipPathStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource {x:Type Path}}">
+        <!-- as of this writing, Font-Awesome, SVG d-streams are vertically inverted with respect to XAML -->
+        <Setter Property="LayoutTransform">
+            <Setter.Value>
+                <ScaleTransform ScaleY="-1" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ArrowCircleLeftPathStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource {x:Type Path}}">
+        <!-- FontAwesome &#xf0a8; fa-arrow-circle-left -->
+        <!-- http://fontawesome.io/icon/arrow-circle-left -->
+        <Setter Property="Data" Value="M1280 576v128q0 26 -19 45t-45 19h-502l189 189q19 19 19 45t-19 45l-91 91q-18 18 -45 18t-45 -18l-362 -362l-91 -91q-18 -18 -18 -45t18 -45l91 -91l362 -362q18 -18 45 -18t45 18l91 91q18 18 18 45t-18 45l-189 189h502q26 0 45 19t19 45zM1536 640 q0 -209 -103 -385.5t-279.5 -279.5t-385.5 -103t-385.5 103t-279.5 279.5t-103 385.5t103 385.5t279.5 279.5t385.5 103t385.5 -103t279.5 -279.5t103 -385.5z" />
+        <Setter Property="Stretch" Value="UniformToFill" />
+    </Style>
+    <Style x:Key="ArrowCircleRightPathStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource {x:Type Path}}">
+        <!-- FontAwesome &#xf0a9; fa-arrow-circle-right -->
+        <!-- http://fontawesome.io/icon/arrow-circle-right -->
+        <Setter Property="Data" Value="M1285 640q0 27 -18 45l-91 91l-362 362q-18 18 -45 18t-45 -18l-91 -91q-18 -18 -18 -45t18 -45l189 -189h-502q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h502l-189 -189q-19 -19 -19 -45t19 -45l91 -91q18 -18 45 -18t45 18l362 362l91 91q18 18 18 45zM1536 640 q0 -209 -103 -385.5t-279.5 -279.5t-385.5 -103t-385.5 103t-279.5 279.5t-103 385.5t103 385.5t279.5 279.5t385.5 103t385.5 -103t279.5 -279.5t103 -385.5z" />
+        <Setter Property="Stretch" Value="UniformToFill" />
+    </Style>
+    <Style x:Key="DatabasePathStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseVFlipPathStyle}">
+        <!-- FontAwesome &#xf1c0; fa-database -->
+        <!-- http://fontawesome.io/icon/database -->
+        <Setter Property="Data" Value="M768 768q237 0 443 43t325 127v-170q0 -69 -103 -128t-280 -93.5t-385 -34.5t-385 34.5t-280 93.5t-103 128v170q119 -84 325 -127t443 -43zM768 0q237 0 443 43t325 127v-170q0 -69 -103 -128t-280 -93.5t-385 -34.5t-385 34.5t-280 93.5t-103 128v170q119 -84 325 -127 t443 -43zM768 384q237 0 443 43t325 127v-170q0 -69 -103 -128t-280 -93.5t-385 -34.5t-385 34.5t-280 93.5t-103 128v170q119 -84 325 -127t443 -43zM768 1536q208 0 385 -34.5t280 -93.5t103 -128v-128q0 -69 -103 -128t-280 -93.5t-385 -34.5t-385 34.5t-280 93.5 t-103 128v128q0 69 103 128t280 93.5t385 34.5z" />
+        <Setter Property="Stretch" Value="Uniform" />
+    </Style>
+    <Style x:Key="ExclamationTrianglePathStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseVFlipPathStyle}">
+        <!-- FontAwesome &#xf071; fa-exclamation-triangle -->
+        <!-- http://fontawesome.io/icon/exclamation-triangle -->
+        <Setter Property="Data" Value="M1024 161v190q0 14 -9.5 23.5t-22.5 9.5h-192q-13 0 -22.5 -9.5t-9.5 -23.5v-190q0 -14 9.5 -23.5t22.5 -9.5h192q13 0 22.5 9.5t9.5 23.5zM1022 535l18 459q0 12 -10 19q-13 11 -24 11h-220q-11 0 -24 -11q-10 -7 -10 -21l17 -457q0 -10 10 -16.5t24 -6.5h185 q14 0 23.5 6.5t10.5 16.5zM1008 1469l768 -1408q35 -63 -2 -126q-17 -29 -46.5 -46t-63.5 -17h-1536q-34 0 -63.5 17t-46.5 46q-37 63 -2 126l768 1408q17 31 47 49t65 18t65 -18t47 -49z" />
+        <Setter Property="Stretch" Value="UniformToFill" />
+    </Style>
+</ResourceDictionary>

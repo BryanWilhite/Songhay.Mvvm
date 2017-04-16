@@ -130,7 +130,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="nuget-package\Pack-NuGet.ps1" />
-    <None Include="nuget-package\Songhay.Mvvm.1.0.0.nupkg" />
+    <None Include="nuget-package\Songhay.Mvvm.1.0.1.nupkg" />
     <None Include="Songhay.Mvvm.nuspec" />
     <Resource Include="Fonts\segoeui.ttf" />
     <Resource Include="Fonts\segoeuib.ttf" />
@@ -143,6 +143,30 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="Resources\ColorDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ControlTemplateDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\FontAwesomePathStyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\PathStyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\StyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\XamlProjectPathStyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AboutFlowDocumentView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
