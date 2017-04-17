@@ -1,6 +1,6 @@
-﻿using Microsoft.Practices.Prism.Mvvm;
-using Microsoft.Practices.Prism.Regions;
-using Microsoft.Practices.ServiceLocation;
+﻿using Microsoft.Practices.ServiceLocation;
+using Prism.Regions;
+using Songhay.Mvvm.Models;
 
 namespace Songhay.Mvvm.Extensions
 {

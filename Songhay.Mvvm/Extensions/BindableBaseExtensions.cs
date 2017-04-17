@@ -1,9 +1,7 @@
-﻿using Microsoft.Practices.Prism.Mvvm;
-using Microsoft.Practices.Prism.Regions;
+﻿using Prism.Mvvm;
+using Prism.Regions;
 using System;
-using System.ComponentModel;
 using System.Linq;
-using System.Windows;
 
 namespace Songhay.Mvvm.Extensions
 {

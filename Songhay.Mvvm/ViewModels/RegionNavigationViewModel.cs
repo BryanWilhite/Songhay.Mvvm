@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Prism.Commands;
+using Prism.Mvvm;
+using Prism.Regions;
+using System;
 using System.Linq;
 using System.Windows.Input;
-using Microsoft.Practices.Prism.Commands;
-using Microsoft.Practices.Prism.Mvvm;
-using Microsoft.Practices.Prism.Regions;
 
 namespace Songhay.Mvvm.ViewModels
 {

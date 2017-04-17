@@ -1,5 +1,5 @@
-﻿using Microsoft.Practices.Prism.Commands;
-using Microsoft.Practices.Prism.Mvvm;
+﻿using Prism.Commands;
+using Prism.Mvvm;
 using Songhay.Models;
 using System.Reflection;
 using System.Windows.Input;

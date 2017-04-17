@@ -1,5 +1,5 @@
-﻿using Microsoft.Practices.Prism.Modularity;
-using Microsoft.Practices.ServiceLocation;
+﻿using Microsoft.Practices.ServiceLocation;
+using Prism.Modularity;
 
 namespace Songhay.Mvvm.Extensions
 {
