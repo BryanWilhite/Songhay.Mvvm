@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>Songhay.Mvvm</id>
-        <version>1.0.2</version>
+        <version>2.0.0</version>
         <title>Songhay MVVM</title>
         <authors>bryan.wilhite@gmail.com</authors>
         <owners>rasx@songhaysystem.com</owners>
@@ -11,18 +11,20 @@
         <licenseUrl>https://raw.github.com/BryanWilhite/Songhay.Mvvm/master/LICENSE.md</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Songhay Model, View, View-Model definitions for WPF (with Prism)</description>
-        <releaseNotes>Changed base support for net461.</releaseNotes>
+        <releaseNotes>Changed to open source version of Prism.</releaseNotes>
         <copyright>Copyright 2017 Bryan D. Wilhite</copyright>
         <tags>MVVM, Model, View, View Model, WPF, Windows Presentation Foundation, Prism</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.6.1">
                 <dependency id="Newtonsoft.Json" version="6.0.1" />
-                <dependency id="Prism" version="5.0.0" />
+                <dependency id="Prism.Core" version="6.3.0" />
+                <dependency id="Prism.Wpf" version="6.3.0" />
                 <dependency id="SonghayCore" version="1.0.0" />
             </group>
             <group targetFramework=".NETFramework4.5.1">
                 <dependency id="Newtonsoft.Json" version="6.0.1" />
-                <dependency id="Prism" version="5.0.0" />
+                <dependency id="Prism.Core" version="6.3.0" />
+                <dependency id="Prism.Wpf" version="6.3.0" />
                 <dependency id="SonghayCore" version="1.0.0" />
             </group>
         </dependencies>

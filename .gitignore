@@ -6,13 +6,13 @@ Doc/doc.shfbproj_*
 TestResults/
 AppPackages/
 packages/
+.vs/
 *.suo
 *.user
 *.userprefs
 _ReSharper.*
 *.ReSharper.user
 *.resharper.user
-.vs/
 *.lock.json
 *.nuget.props
 *.nuget.targets
