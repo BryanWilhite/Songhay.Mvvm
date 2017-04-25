@@ -15,6 +15,9 @@ namespace Songhay.Mvvm.Extensions
         /// </summary>
         /// <typeparam name="TService">The type of the service.</typeparam>
         /// <param name="notifier">The notifier.</param>
+        /// <remarks>
+        /// This member uses <see cref="ServiceLocator.Current.GetInstance{T}"/> which has been considered an anti-pattern.
+        /// </remarks>
         public static TService GetInstance<TService>(this IView notifier)
         {
             return ServiceLocator.Current.GetInstance<TService>();
@@ -26,6 +29,9 @@ namespace Songhay.Mvvm.Extensions
         /// <typeparam name="TService">The type of the service.</typeparam>
         /// <param name="notifier">The notifier.</param>
         /// <param name="key">The key.</param>
+        /// <remarks>
+        /// This member uses <see cref="ServiceLocator.Current.GetInstance{T}"/> which has been considered an anti-pattern.
+        /// </remarks>
         public static TService GetInstance<TService>(this IView notifier, string key)
         {
             return ServiceLocator.Current.GetInstance<TService>(key);

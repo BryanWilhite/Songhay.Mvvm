@@ -6,6 +6,12 @@ namespace Songhay.Mvvm.Models
     /// <summary>
     /// Defines core Prism “events” 
     /// </summary>
+    /// <remarks>
+    /// Using these events “properly” through the Prism Event Aggregator may cause unexpected results
+    /// (e.g. subscribers will not fire).
+    /// 
+    /// This static class was intended for “strangulation” of legacy code as an intermediate step in re-factoring.
+    /// </remarks>
     public static class CorePrismEvents
     {
         /// <summary>
