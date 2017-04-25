@@ -127,6 +127,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="nuget-package\Pack-NuGet.ps1" />
+    <None Include="nuget-package\Songhay.Mvvm.2.1.0.nupkg" />
     <None Include="packages.config" />
     <Resource Include="Fonts\segoeui.ttf" />
     <Resource Include="Fonts\segoeuib.ttf" />
