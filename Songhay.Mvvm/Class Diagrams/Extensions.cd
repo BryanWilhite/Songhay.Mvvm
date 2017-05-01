@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Songhay.Mvvm.Extensions.BindableBaseExtensions">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAQAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\BindableBaseExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.CanvasExtensions">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAKAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\CanvasExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.CollectionViewSourceExtensions">
+    <Position X="0.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Extensions\CollectionViewSourceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.ColorExtensions">
+    <Position X="0.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAEAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ColorExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.DependencyObjectExtensions">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Extensions\DependencyObjectExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.FrameworkElementExtensions">
+    <Position X="4" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IBBAAAAgAABAAAAAAAQACAICGABAAAAEEAEAAAIEAAA=</HashCode>
+      <FileName>Extensions\FrameworkElementExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.ILoggerFacadeExtensions">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ILoggerFacadeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.IModuleExtensions">
+    <Position X="7.75" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\IModuleExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.INotifyPropertyChangedExtensions">
+    <Position X="7.75" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAABAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\INotifyPropertyChangedExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.IViewExtensions">
+    <Position X="7.75" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\IViewExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.KeyEventArgsExtensions">
+    <Position X="11.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAhQAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Extensions\KeyEventArgsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.PropertyChangedEventArgsExtensions">
+    <Position X="11.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\PropertyChangedEventArgsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.StoryboardExtensions">
+    <Position X="11.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\StoryboardExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.TypeExtensions">
+    <Position X="15.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\TypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.UIElementExtensions">
+    <Position X="15.25" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\UIElementExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Extensions.VisualExtensions">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\VisualExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

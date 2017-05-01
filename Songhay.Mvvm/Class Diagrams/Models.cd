@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Songhay.Mvvm.Models.DataServiceContextEvent" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DataServiceContextEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.DataServiceContextEventPayload">
+    <Position X="7.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAAAAAAAAABAAAAAAAAAAAABIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DataServiceContextEventPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.DisplayItemModelEvent" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DisplayItemModelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.DisplayItemModelWithBrushes">
+    <Position X="13.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DisplayItemModelWithBrushes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.EditorEventPayload">
+    <Position X="10.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEAAAAAAAAAAAIAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Models\EditorEventPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.EventPayload">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\EventPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.KeyInputEvent" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\KeyInputEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.MenuDisplayItemModelEvent" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MenuDisplayItemModelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.ModelEventPayload&lt;TModel&gt;">
+    <Position X="11.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAEAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\ModelEventPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.ViewModelEvent" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.ViewModelEventPayload">
+    <Position X="8.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\ViewModelEventPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.ViewModelSourceModelPair&lt;TViewModel, TSourceModel&gt;" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\ViewModelSourceModelPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Songhay.Mvvm.Models.CorePrismEvents">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAIAAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CorePrismEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Songhay.Mvvm.Models.IDeletable">
+    <Position X="15.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAA=</HashCode>
+      <FileName>Models\IDeletable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Songhay.Mvvm.Models.IModuleEventSubscriptionService">
+    <Position X="15.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\IModuleEventSubscriptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Songhay.Mvvm.Models.IView">
+    <Position X="15.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

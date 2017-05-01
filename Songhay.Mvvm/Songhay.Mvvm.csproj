@@ -127,6 +127,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Class Diagrams\Extensions.cd" />
+    <None Include="Class Diagrams\Models.cd" />
+    <None Include="Class Diagrams\ValueConverters.cd" />
+    <None Include="Class Diagrams\Views and View Models.cd" />
     <None Include="nuget-package\Pack-NuGet.ps1" />
     <None Include="nuget-package\Songhay.Mvvm.2.1.0.nupkg" />
     <None Include="packages.config" />
