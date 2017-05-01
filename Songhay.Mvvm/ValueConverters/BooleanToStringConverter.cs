@@ -9,7 +9,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.Boolean"/> source data
     /// into <see cref="System.String"/>.
     /// /// </summary>
-    public class BooleanToStringConverter : IValueConverter
+    public sealed class BooleanToStringConverter : IValueConverter
     {
         #region IValueConverter Members
 

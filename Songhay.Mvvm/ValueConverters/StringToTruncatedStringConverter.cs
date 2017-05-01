@@ -5,7 +5,7 @@ using System.Windows.Data;
 
 namespace Songhay.ValueConverters
 {
-    public class StringToTruncatedStringConverter : IValueConverter
+    public sealed class StringToTruncatedStringConverter : IValueConverter
     {
         /// <summary>
         /// Converts a value.

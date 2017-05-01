@@ -9,7 +9,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.Boolean"/> source data
     /// into <see cref="System.String"/>.
     /// </summary>
-    public class StringToBooleanConverter : IValueConverter
+    public sealed class StringToBooleanConverter : IValueConverter
     {
         #region IValueConverter Members
 
@@ -26,9 +26,9 @@ namespace Songhay.ValueConverters
         public object Convert(object value, Type targetType,
             object parameter, CultureInfo culture)
         {
-            if(parameter == null) parameter = "Yes,No";
+            if (parameter == null) parameter = "Yes,No";
             var targetValues = parameter.ToString().Split(',');
-            if(targetValues.Length < 2) throw new ArgumentException("The parameter is not in the expected format.");
+            if (targetValues.Length < 2) throw new ArgumentException("The parameter is not in the expected format.");
             return (bool)value ? targetValues[0] : targetValues[1];
         }
 
@@ -47,10 +47,10 @@ namespace Songhay.ValueConverters
         {
             var s = (string)value;
 
-            if(parameter == null) parameter = "Yes,No";
+            if (parameter == null) parameter = "Yes,No";
             var targetValues = parameter.ToString().Split(',');
-            if(targetValues.Length < 2) throw new ArgumentException("The parameter is not in the expected format.");
-            if(string.IsNullOrEmpty(s)) return DependencyProperty.UnsetValue;
+            if (targetValues.Length < 2) throw new ArgumentException("The parameter is not in the expected format.");
+            if (string.IsNullOrEmpty(s)) return DependencyProperty.UnsetValue;
             return (s.Equals((string)targetValues[0]));
         }
 

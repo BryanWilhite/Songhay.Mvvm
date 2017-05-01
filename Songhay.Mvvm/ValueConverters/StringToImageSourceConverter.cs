@@ -9,7 +9,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.String"/>
     /// to <see cref="ImageSourceConverter"/>, <see cref="TypeConverter"/> object.
     /// </summary>
-    public class StringToImageSourceConverter : IValueConverter
+    public sealed class StringToImageSourceConverter : IValueConverter
     {
         /// <summary>
         /// Modifies the source data before passing it to the target for display in the UI.

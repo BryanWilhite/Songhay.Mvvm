@@ -8,7 +8,7 @@ namespace Songhay.ValueConverters
     /// <summary>
     /// Converts the specified string to <see cref="System.Windows.Visibility"/>.
     /// </summary>
-    public class StringToVisibilityConverter : IValueConverter
+    public sealed class StringToVisibilityConverter : IValueConverter
     {
         /// <summary>
         /// Converts a value.

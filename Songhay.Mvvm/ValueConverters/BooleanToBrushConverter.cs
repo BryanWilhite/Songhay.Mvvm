@@ -14,7 +14,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.Boolean"/>
     /// to <see cref="System.Windows.Media.SolidColorBrush"/>.
     /// </summary>
-    public class BooleanToBrushConverter : IValueConverter
+    public sealed class BooleanToBrushConverter : IValueConverter
     {
         /// <summary>
         /// Modifies the source data before passing it to the target for display in the UI.

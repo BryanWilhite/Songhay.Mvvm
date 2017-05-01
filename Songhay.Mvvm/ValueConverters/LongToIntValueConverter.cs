@@ -4,7 +4,7 @@ using System.Windows.Data;
 
 namespace Songhay.ValueConverters
 {
-    public class LongToIntValueConverter : IValueConverter
+    public sealed class LongToIntValueConverter : IValueConverter
     {
         #region IValueConverter Members
 

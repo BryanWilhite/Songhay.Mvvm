@@ -8,7 +8,7 @@ using System.Windows.Data;
 
 namespace Songhay.ValueConverters
 {
-    public class DataGridBoundColumnToHeaderConverter : IValueConverter
+    public sealed class DataGridBoundColumnToHeaderConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {

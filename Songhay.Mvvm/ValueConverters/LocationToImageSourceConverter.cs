@@ -9,7 +9,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.String"/>
     /// to <see cref="ImageSourceConverter"/>, <see cref="TypeConverter"/> object.
     /// </summary>
-    public class LocationToImageSourceConverter : IValueConverter
+    public sealed class LocationToImageSourceConverter : IValueConverter
     {
         #region IValueConverter Members
 
@@ -26,7 +26,7 @@ namespace Songhay.ValueConverters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var location = value as string;
-            if(location == null) return null;
+            if (location == null) return null;
             return (new ImageSourceConverter()).ConvertFromString(location);
         }
 

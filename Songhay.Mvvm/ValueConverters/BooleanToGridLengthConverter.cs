@@ -11,7 +11,7 @@ namespace Songhay.ValueConverters
     /// Converts <see cref="System.Boolean"/>
     /// to data in <see cref="System.Windows.GridLength"/>.
     /// </summary>
-    public class BooleanToGridLengthConverter : IValueConverter
+    public sealed class BooleanToGridLengthConverter : IValueConverter
     {
         /// <summary>
         /// Modifies the source data before passing it to the target for display in the UI.

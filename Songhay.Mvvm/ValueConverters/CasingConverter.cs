@@ -7,7 +7,7 @@ namespace Songhay.ValueConverters
     /// <summary>
     /// Converts <see cref="System.String"/> to Upper/Lower case.
     /// </summary>
-    public class CasingConverter : IValueConverter
+    public sealed class CasingConverter : IValueConverter
     {
         /// <summary>
         /// Modifies the source data before passing it to the target for display in the UI.
@@ -24,7 +24,7 @@ namespace Songhay.ValueConverters
             var s = value as string;
             if (s == null) return null;
 
-            var isToLower = (parameter != null ) ? bool.Parse((string)parameter) : false;
+            var isToLower = (parameter != null) ? bool.Parse((string)parameter) : false;
             s = isToLower ? s.ToLower(culture) : s.ToUpper(culture);
             return s;
         }
