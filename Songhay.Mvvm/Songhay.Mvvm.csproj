@@ -90,6 +90,7 @@
     <Compile Include="Models\EditorEventPayload.cs" />
     <Compile Include="Models\EventPayload.cs" />
     <Compile Include="Models\IDeletable.cs" />
+    <Compile Include="Models\IModuleEventSubscriptionService.cs" />
     <Compile Include="Models\IView.cs" />
     <Compile Include="Models\KeyInputEvent.cs" />
     <Compile Include="Models\MenuDisplayItemModelEvent.cs" />
