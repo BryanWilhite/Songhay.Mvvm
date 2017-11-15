@@ -32,15 +32,15 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.dll" target="lib/net451" />
-        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.exe" exclude="**vshost**" target="lib/net451" />
-        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.config" target="lib/net451" />
-        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.xml" target="lib/net451" />
+        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.dll" target="lib\net451" />
+        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.exe" exclude="**vshost**" target="lib\net451" />
+        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.config" target="lib\net451" />
+        <file src="Songhay.Mvvm-net451\bin\Release\Songhay.Mvvm*.xml" target="lib\net451" />
 
-        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.dll" target="lib/net461" />
-        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.exe" exclude="**vshost**" target="lib/net461" />
-        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.config" target="lib/net461" />
-        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.xml" target="lib/net461" />
+        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.dll" target="lib\net461" />
+        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.exe" exclude="**vshost**" target="lib\net461" />
+        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.config" target="lib\net461" />
+        <file src="Songhay.Mvvm\bin\Release\Songhay.Mvvm*.xml" target="lib\net461" />
 
         <file src="Songhay.Mvvm\**\*.cs" exclude="Songhay.Mvvm\**\obj\**" target="src" />
     </files>
