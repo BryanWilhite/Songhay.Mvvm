@@ -1,4 +1,4 @@
-﻿using CommonServiceLocator;
+﻿using Microsoft.Practices.ServiceLocation;
 using Prism.Modularity;
 
 namespace Songhay.Mvvm.Extensions
