@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{1102209C-B6C0-44F6-BEE3-D762F73C8F9B}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{EBB8495E
 		Songhay.Mvvm.nuspec = Songhay.Mvvm.nuspec
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Songhay.Mvvm.Tests", "Songhay.Mvvm.Tests\Songhay.Mvvm.Tests.csproj", "{7A69C810-5871-4C7E-BFC1-CD5A3FE45C18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,15 @@ Global
 		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE1C94B-A0B2-41AE-B6FF-69CE5B0BDFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A69C810-5871-4C7E-BFC1-CD5A3FE45C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A69C810-5871-4C7E-BFC1-CD5A3FE45C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A69C810-5871-4C7E-BFC1-CD5A3FE45C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A69C810-5871-4C7E-BFC1-CD5A3FE45C18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E6A3AC7-28F3-405E-822C-30B46FD04401}
 	EndGlobalSection
 EndGlobal
