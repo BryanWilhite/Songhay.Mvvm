@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>Songhay.Mvvm</id>
-        <version>2.2.3</version>
+        <version>2.2.4</version>
         <title>Songhay MVVM</title>
         <authors>bryan.wilhite@gmail.com</authors>
         <owners>rasx@songhaysystem.com</owners>
@@ -10,24 +10,25 @@
         <iconUrl>http://songhaysystem.com/Content/images/songhay_icon.png</iconUrl>
         <licenseUrl>https://raw.github.com/BryanWilhite/Songhay.Mvvm/master/LICENSE.md</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>Songhay Model, View, View-Model definitions for WPF (with Prism)</summary>
         <description>Songhay Model, View, View-Model definitions for WPF (with Prism)</description>
-        <releaseNotes>Updated dependencies requirements [CommonServiceLocator].</releaseNotes>
-        <copyright>Copyright 2017 Bryan D. Wilhite</copyright>
+        <releaseNotes>package dependencies refresh</releaseNotes>
+        <copyright>Copyright 2018 Bryan D. Wilhite</copyright>
         <tags>MVVM, Model, View, View Model, WPF, Windows Presentation Foundation, Prism</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.6.1">
                 <dependency id="CommonServiceLocator" version="1.3.0" />
-                <dependency id="Newtonsoft.Json" version="10.0.3" />
+                <dependency id="Newtonsoft.Json" version="11.0.2" />
                 <dependency id="Prism.Core" version="6.3.0" />
                 <dependency id="Prism.Wpf" version="6.3.0" />
-                <dependency id="SonghayCore" version="2.5.2" />
+                <dependency id="SonghayCore" version="2.8.4" />
             </group>
             <group targetFramework=".NETFramework4.5.1">
                 <dependency id="CommonServiceLocator" version="1.3.0" />
-                <dependency id="Newtonsoft.Json" version="10.0.3" />
+                <dependency id="Newtonsoft.Json" version="11.0.2" />
                 <dependency id="Prism.Core" version="6.3.0" />
                 <dependency id="Prism.Wpf" version="6.3.0" />
-                <dependency id="SonghayCore" version="2.5.2" />
+                <dependency id="SonghayCore" version="2.8.4" />
             </group>
         </dependencies>
     </metadata>
